@@ -1,0 +1,101 @@
+/* Genel Ayarlar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: #ffc107;
+}
+
+/* Ana Bölüm */
+main {
+    flex: 1; /* Footer'ın sayfanın en altında durmasını sağlar */
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 1.6rem;
+    color: #333;
+    border-bottom: 2px solid #d32f2f;
+    padding-bottom: 5px;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+section ul li {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #d32f2f;
+    color: white;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Duyarlı Tasarım */
+@media (max-width: 768px) {
+    header nav {
+        font-size: 0.9rem;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}

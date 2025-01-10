@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.register-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #d32f2f; /* Kırmızı renk */
+}
+
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-form button {
+    width: 100%;
+    background-color: #d32f2f; /* Kırmızı renk */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: #b71c1c; /* Daha koyu kırmızı */
+}
+
+.register-form a {
+    text-decoration: none;
+    color: #d32f2f;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
